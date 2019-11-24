@@ -50,4 +50,5 @@ let hoursWorkedOnDate = function(employee, onDate){
 
 let wagesEarnedOnDate = function(employee, onDate) {
   let wages = hoursWorkedOnDate(employee, onDate)*employee.payPerHour
+  return wages
 }
