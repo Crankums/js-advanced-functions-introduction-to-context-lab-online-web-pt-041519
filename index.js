@@ -41,8 +41,8 @@ let createTimeOutEvent = function(employee, time) {
 
 let hoursWorkedOnDate = function(employee, onDate){
   // find date
-  let inDate = employee.timeInEvents.find(el => return el.date === inDate)
-  let outDate = employee.timeOutEvents.find(el => return el.date === outDate)
+  let inDate = employee.timeInEvents.find(el => el.date === inDate)
+  let outDate = employee.timeOutEvents.find(el => el.date === outDate)
 
   return (outDate.hour - inDate.hour)
   // employee.timeOutEvents - employee.timeInEvents)
