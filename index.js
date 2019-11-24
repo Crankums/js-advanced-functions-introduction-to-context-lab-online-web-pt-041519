@@ -27,3 +27,14 @@ let createTimeInEvent = function(employee, time) {
   })
   return employee
 }
+
+let createTimeOutEvent = function(employee, time) {
+  let [date, hour] = time.split(' ')
+
+  employee.timeOutEvents.push({
+    type: "TimeOut",
+    hour: parseInt(hour, 10),
+    date
+  })
+  
+}
