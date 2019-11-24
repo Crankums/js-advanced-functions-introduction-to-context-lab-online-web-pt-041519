@@ -48,6 +48,6 @@ let hoursWorkedOnDate = function(employee, onDate){
   // employee.timeOutEvents - employee.timeInEvents)
 }
 
-let wagesEarnedOnDate = function(employee, onDate, rate) {
-  return hoursWorkedOnDate(employee, onDate)*rate
+let wagesEarnedOnDate = function(employee, onDate) {
+  let wages = hoursWorkedOnDate(employee, onDate)*employee.payPerHour
 }
