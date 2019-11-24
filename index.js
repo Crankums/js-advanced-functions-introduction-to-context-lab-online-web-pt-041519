@@ -38,3 +38,5 @@ let createTimeOutEvent = function(employee, time) {
   })
   return employee
 }
+
+let hoursWorkedOnDate
