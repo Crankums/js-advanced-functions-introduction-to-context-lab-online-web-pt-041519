@@ -61,3 +61,9 @@ let allWagesFor = function(employee) {
   }, 0)
   return totalWages
 }
+
+let calculatePayroll = function(empAr) {
+    return empArr.reduce(function(total, date) {
+        return total + allWagesFor(date)
+    })
+}
