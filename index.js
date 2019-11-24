@@ -68,6 +68,6 @@ let calculatePayroll = function(empArr) {
     }, 0)
 }
 
-let findEmployeeByFirstName = function(name) {
-  return employee.find(el => el.firstName === name)
+let findEmployeeByFirstName = function(srcArr, name) {
+  return srcArr.find(el => el.firstName === name)
 }
