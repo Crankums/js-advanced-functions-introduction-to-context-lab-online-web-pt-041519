@@ -67,3 +67,7 @@ let calculatePayroll = function(empArr) {
         return total + allWagesFor(date)
     }, 0)
 }
+
+let findEmployeeByFirstName = function(name) {
+  
+}
