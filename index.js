@@ -69,5 +69,5 @@ let calculatePayroll = function(empArr) {
 }
 
 let findEmployeeByFirstName = function(name) {
-
+  return employee.find(el => el.firstName === name)
 }
