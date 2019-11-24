@@ -52,3 +52,8 @@ let wagesEarnedOnDate = function(employee, onDate) {
   let wages = hoursWorkedOnDate(employee, onDate)*employee.payPerHour
   return wages
 }
+
+let allWagesFor = function(employee) {
+  let dates = employee.timeInEvents.map(el => el.date)
+  
+}
