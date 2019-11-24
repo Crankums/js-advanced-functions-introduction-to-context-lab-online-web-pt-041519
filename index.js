@@ -49,5 +49,5 @@ let hoursWorkedOnDate = function(employee, onDate){
 }
 
 let wagesEarnedOnDate = function(employee, onDate, rate) {
-  hoursWorkedOnDate(employee, onDate)
+  return hoursWorkedOnDate(employee, onDate)*rate
 }
