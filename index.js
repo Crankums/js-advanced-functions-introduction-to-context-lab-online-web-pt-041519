@@ -59,4 +59,5 @@ let allWagesFor = function(employee) {
   let totalWages = dates.reduce(function(total, date) {
     return total + wagesEarnedOnDate(employee, date)
   })
+  return totalWages
 }
